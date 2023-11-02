@@ -11,8 +11,8 @@ function identificarNumero() {
             resultado.textContent = "Impar";
         }
     } else if (!Number.isInteger(numero)) {
-        resultado.textContent = "Debe ingresar números enteros, no decimales.";
+        resultado.textContent = "Debe ingresar números enteros, no caracteres o numero decimales.";
     } else if (numero <= 0) {
-        resultado.textContent = "Debe ingresar números positivos, no negativos.";
+        resultado.textContent = "Debe ingresar números enteros positivos, no negativos.";
     }
 }
