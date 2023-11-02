@@ -12,4 +12,5 @@ function checkType() {
     } else {
         resultElement.textContent = 'Texto';
     }
+    
 }
